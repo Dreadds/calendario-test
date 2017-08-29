@@ -1,0 +1,5 @@
+git status // Para ver el estado de las carpetas en git
+git add "nombre_del_archivo" o "." // Agrega el archivo a git
+git commint -m "nombre del log"
+git checkout -- "nombre del archivo"  // Borrar los cambios de tu archivo, cuando no esta en unstaging
+git reset HEAD "nombre del archivo" // Cuando este en unstaging, pero ya no queremos confirmarlo.
