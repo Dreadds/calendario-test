@@ -4,3 +4,6 @@ git commint -m "nombre del log"
 git checkout -- "nombre del archivo"  // Borrar los cambios de tu archivo, cuando no esta en unstaging
 git reset HEAD "nombre del archivo" // Cuando este en unstaging, pero ya no queremos confirmarlo.
 git rm "nombre_del_archivo" // borra el archivo
+git checkout -b "nombre del branch" // crea una nueva rama
+git checkout "nombre del branch" // cambia de rama a otra
+git branch -D "nombre del branch" // borra la rama
