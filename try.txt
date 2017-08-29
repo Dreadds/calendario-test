@@ -6,4 +6,6 @@ git reset HEAD "nombre del archivo" // Cuando este en unstaging, pero ya no quer
 git rm "nombre_del_archivo" // borra el archivo
 git checkout -b "nombre del branch" // crea una nueva rama
 git checkout "nombre del branch" // cambia de rama a otra
-git branch -D "nombre del branch" // borra la rama
+git branch -D "nombre del branch" // borra la rama si o si
+git branch -d "nombre del branch" // borra la rama si se hizo una correta fusión (marge).
+git merge "branch de donde se copiará los datos" // para fusionar las ramas.
