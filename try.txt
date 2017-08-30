@@ -11,3 +11,5 @@ git branch -D "nombre del branch" // borra la rama si o si
 git branch -d "nombre del branch" // borra la rama si se hizo una correta fusión (marge).
 git merge "branch de donde se copiará los datos" // para fusionar las ramas.
 git push origin master // Suber el proyecto a github
+git clone "URL" // clona tu repositorio en un directorio x
+git pull origin master // baja el archivo si es que ha habadi alguna modificacion
