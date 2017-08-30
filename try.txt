@@ -1,3 +1,4 @@
+git init // inicializa el repositorio // cd .. // retrocede una carpeta
 git status // Para ver el estado de las carpetas en git
 git add "nombre_del_archivo" o "." // Agrega el archivo a git
 git commint -m "nombre del log"
@@ -9,3 +10,4 @@ git checkout "nombre del branch" // cambia de rama a otra
 git branch -D "nombre del branch" // borra la rama si o si
 git branch -d "nombre del branch" // borra la rama si se hizo una correta fusión (marge).
 git merge "branch de donde se copiará los datos" // para fusionar las ramas.
+git push origin master // Suber el proyecto a github
